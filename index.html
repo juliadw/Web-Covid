@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Covid 19</title>
+    <link rel="stylesheet" href="assets/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar" id="myTopnav">
+            <div class="container-icon">
+                <img class="primary-icon" src="assets/images/logo.svg" alt="logo">
+            </div>
+            <ul class="nav-list" id="nav-list">
+                <li class="list-item">
+                    <a href="#home">Home</a>
+                </li>
+                <li class="list-item">
+                    <a href="#tentang">Tentang</a>
+                </li>
+                <li class="dropdown list-item">
+                    <button class="dropbtn" onclick="dropFucntions()">Artikel 
+                        <i class="fa fa-caret-down"></i>
+                    </button>
+                    <div class="dropdown-content" id="myDropdown">
+                        <a href="#gejala">Gejala</a>
+                        <a href="#cegah">Cegah</a>
+                    </div>
+                </li> 
+                <li class="list-item">
+                    <a href="#kontak">Kontak</a>
+                </li>
+            </ul>
+            <div class="menu" id="toggle-button">
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+                <div class="menu-line"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div id="content">
+            <article id="home">
+                <div class="flexContainer" >
+                    <div class="berandaLeft">
+                        <h1 class="titleHome">Covid-19</h1>
+                        <h2 class="textSubTitle">Jaga diri anda di rumah karantina</h2>
+                        <p>Penyakit virus corona (COVID-19) adalah penyakit menular yang disebabkan oleh virus corona yang baru-baru ini ditemukan yang dapat menyebabkan kematian.</p>
+                        <button class="btnHome">Selengkapnya</button>
+                    </div>
+                    <div class="berandaRight">
+                        <img src="assets/images/homeImg.png" alt="peopleWeareMask" class="fetured-image imgHome">
+                    </div>
+                </div>
+            </article>
+            <article id="tentang" class="tentang">
+                <h1 class="Judul" >Virus Corona</h2>
+                <div class="flexContainer">
+                    <div class="flexTentangLeft">
+                        <img src="assets/images/coronaVirus.png" alt="peopleWeareMask" class="fetured-image">
+                    </div>
+                    <div class="flexTentangRigt">
+                        <p>
+                            Infeksi virus Corona disebut COVID-19 (Corona Virus Disease 2019) dan pertama kali ditemukan di kota Wuhan, China pada akhir Desember 2019. Virus ini menular dengan sangat cepat dan telah menyebar ke hampir semua negara, termasuk Indonesia, hanya dalam waktu beberapa bulan.
+                            <br>
+                            <br>
+                            Coronavirus adalah kumpulan virus yang bisa menginfeksi sistem pernapasan. Pada banyak kasus, virus ini hanya menyebabkan infeksi pernapasan ringan, seperti flu. Namun, virus ini juga bisa menyebabkan infeksi pernapasan berat, seperti infeksi paru-paru (pneumonia).
+                            <br>
+                            <br>
+                            Virus ini menular melalui percikan dahak (droplet) dari saluran pernapasan, misalnya ketika berada di ruang tertutup yang ramai dengan sirkulasi udara yang kurang baik atau kontak langsung dengan droplet.
+                            <br>
+                            <br>
+                            Selain virus SARS-CoV-2 atau virus Corona, virus yang juga termasuk dalam kelompok ini adalah virus penyebab Severe Acute Respiratory Syndrome (SARS) dan virus penyebab Middle-East Respiratory Syndrome (MERS). Meski disebabkan oleh virus dari kelompok yang sama, yaitu coronavirus, COVID-19 memiliki beberapa perbedaan dengan SARS dan MERS, antara lain dalam hal kecepatan penyebaran dan keparahan gejala.
+                        </p>
+                    </div>
+                </div>
+            </article>
+            <article id="gejala">
+                <h1 class="Judul" >Gejala Covid-19</h2>
+                <div class="flexContainer">
+                    <div class="berandaLeft">
+                        <p>Masing-masing orang memiliki respons yang berbeda terhadap COVID-19. Sebagian besar orang yang terpapar virus ini akan mengalami gejala ringan hingga sedang, dan akan pulih tanpa perlu dirawat di rumah sakit. </p>
+                        <ul>
+                            <li>Demam</li>
+                            <li>Batuk Kering</li>
+                            <li>Flu</li>
+                            <li>Sakit Kepala</li>
+                            <li>Sakit Tenggorokan</li>
+                            <li>Selelahan</li>
+                        </ul>
+                        <button class="btnHome">Selengkapnya</button>
+                    </div>
+                    <div class="berandaRight">
+                        <img src="assets/images/gejalaImg.png" alt="peopleWeareMask" class="fetured-image">
+                    </div>
+                </div>
+            </article>
+            <article id="cegah">
+                <h1 class="Judul" >Cegah Penyebaran Covid-19</h2>
+                <div class="flexContainerCegah">
+                    <div class="masker box">
+                        <img src="assets/images/mask.png" alt="memakai masker" class="imgCegah">
+                        <p>Memakai Masker</p>
+                    </div>
+                    <div class="cuciTangan box">
+                        <img src="assets/images/cuciTangan.png" alt="mencuci tangan" class="imgCegah">
+                        <p>Mencuci Tangan</p>
+                    </div>
+                    <div class="jagaJarak box">
+                        <img src="assets/images/JagaJarak.png" alt="menjaga jarak" class="imgCegah">
+                        <p>Menjaga Jarak</p>
+                    </div>
+                    <div class="vaksin box">
+                        <img src="assets/images/vaksin.png" alt="vaksin" class="imgCegah">
+                        <p>Mengikuti Vaksinasi</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        
+        <div id="kontak">
+            <h1 class="Judul" >Kontak</h2>
+            <div id="message">
+                <article class="cardMessage">
+                    <form action="/action_page.php">
+                        <label for="fname">Nama</label>
+                        <input type="text" id="fname" name="firstname" placeholder="Masukan nama anda...">
+                    
+                        <label for="lname">Email</label>
+                        <input type="text" id="email" name="lastname" placeholder="Masukkan email anda">
+                    
+                        <label for="komentar">Komentar</label>
+                        <textarea id="komentar" name="komentar" placeholder="Tulis komentar anda..."></textarea>
+                        <input type="submit" value="Kirim" onclick="alertSubmit()">
+                    </form>
+                </article>
+            </div>
+            <aside>
+                <article class="profile card">
+                    <header>
+                        <figure>
+                            <img src="assets/images/profile.jpg">
+                            <figcaption>Profile</figcaption>
+                        </figure>
+                    </header>
+                    <section>
+                        <table>
+                            <tr>
+                                <th>Nama :</th>
+                                <td>Julia Dwiana</td>
+                            </tr>
+                            <tr>
+                                <th>Umur :</th>
+                                <td>19 tahun</td>
+                            </tr>
+                            <tr>
+                                <th>Alamat :</th>
+                                <td>Ciberem rt 05/02</td>
+                            </tr>
+                            <tr>
+                                <th>Telepon :</th>
+                                <td>+6285888588046</td>
+                            </tr>
+                        </table>
+                    </section>
+                </article>
+            </aside>
+        </div>
+    </main>
+    <footer>
+        <p>Submission &#169; 2021, Julia Dwiana</p>
+    </footer>
+
+    <script src="assets/covid.js"></script>
+</body>
+</html>
